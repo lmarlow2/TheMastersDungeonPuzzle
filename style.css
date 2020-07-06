@@ -1,0 +1,57 @@
+ol li, h1, h2, form label, textarea, input[type="text"] {
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+  max-width: 600px;
+}
+
+input[type="text"], textarea {
+  background-color: #636363;
+}
+
+.center {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.bordered {
+  border-radius: 25px; 
+  border: 2px solid #FFD700;
+  background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
+}
+
+.bigButton {
+  border-radius: 25px; 
+  border: 2px solid #FFD700;
+  background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
+  width: 30%;
+  height: 18.54%;
+  color: #ffffff;
+  font-size: 20pt;
+  transition-duration: 0.4s;
+}
+
+.bigButton:hover {
+  background-color: #0000c4;
+}
+
+.bigButton:active {
+  background-color: #000000;
+}
+
+@font-face {
+    font-family: 'scriptinaregular';
+    src: url('./scriptin-webfont.woff2') format('woff2'),
+         url('./scriptin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.script {
+  font-family: 'scriptinaregular', 'Arial';
+  font-size: 30pt;
+}
