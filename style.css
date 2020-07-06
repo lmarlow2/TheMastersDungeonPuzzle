@@ -27,8 +27,6 @@ input[type="text"], textarea {
   border-radius: 25px; 
   border: 2px solid #FFD700;
   background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
-  width: 30%;
-  height: 18.54%;
   color: #ffffff;
   font-size: 20pt;
   transition-duration: 0.4s;
