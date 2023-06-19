@@ -2,7 +2,7 @@ ol li, h1, h2, form label, textarea, input[type="text"] {
   color: #ffffff;
 }
 
-p {
+p, td {
   color: #ffffff;
   max-width: 600px;
 }
