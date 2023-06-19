@@ -21,9 +21,13 @@ function calculateSums(){
   let aei = a + e + i;
   let ceg = c + e + g;
 
-  if([ ... new set([a, b, c, d, e, f, g, h, i])].length == 9 && abc == def && def == ghi && ghi == adg && adg == beh && beh == cfi && cfi == aei && aei == ceg && ceg == 15){
-    console.log("Correct Answer Submitted!");
+  if([ ... new set([a, b, c, d, e, f, g, h, i])].length == 9){
+    if(abc == def && def == ghi && ghi == adg && adg == beh && beh == cfi && cfi == aei && aei == ceg && ceg == 15){
+      window.alert("Correct Answer Submitted!");
+    } else {
+      window.alert("This answer is not correct!");
+    }
   } else {
-    console.log("This answer is not correct!");
+    window.alert("The value of each box must be unique. No option is reused.");
   }
 }
