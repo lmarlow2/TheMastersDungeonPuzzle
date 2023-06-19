@@ -21,7 +21,7 @@ function calculateSums(){
   let aei = a + e + i;
   let ceg = c + e + g;
 
-  if(abc == def && def == ghi && ghi == adg && adg == beh && beh == cfi && cfi == aei && aei == ceg && ceg == 15){
+  if([ ... new set([a, b, c, d, e, f, g, h, i])].length == 9 && abc == def && def == ghi && ghi == adg && adg == beh && beh == cfi && cfi == aei && aei == ceg && ceg == 15){
     console.log("Correct Answer Submitted!");
   } else {
     console.log("This answer is not correct!");
